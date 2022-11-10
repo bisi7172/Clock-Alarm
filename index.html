@@ -1,0 +1,68 @@
+
+<html>
+  <head>
+    <title>Sudhish</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div id="wrap">
+    <div id="heading">
+      <h1>Alarm</h1>
+    </div>
+    <div id="clock">
+      <span id="h"></span>
+      <span class="colon">:</span>
+      <span id="m"></span>
+      <span class="colon">:</span>
+      <span id="s"></span>
+      <span id="shift"></span>
+      <span id="d"></span>
+    </div>
+    <div id="dropdownDiv">
+      <select id="hoursSelect" class="dropdown">
+        <option selected hidden>Hour</option>
+      </select>
+
+      <select id="minutesSelect" class="dropdown">
+        <option selected hidden>Minutes</option>
+      </select>
+
+      <select id="shiftSelect" class="dropdown">
+        <option selected hidden>AM/PM</option>
+        <option value="0">AM</option>
+        <option value="1">PM</option>
+      </select>
+
+      <select id="daysSelect" class="dropdown">
+        <option selected hidden>Day</option>
+      </select>
+    </div>
+    <div id="BtnDiv">
+      <button id="addBtn" class="dropdown btnAdd" style="display: block">
+        Add Alarm
+      </button>
+      <button id="reset" class="dropdown btn" style="display: none">
+        Stop/Delete</br>Alarm
+      </button>
+      <button id="snooze" class="dropdown btn" style="display: none">Snooze</button>
+    </div>
+  </div>
+    
+
+    <!-- <div>
+      <span>
+        <table id="myTable" style="border: 1px solid white">
+          <tr>
+            <th>Time</th>
+            <th>Day</th>
+            <th>Delete</th>
+          </tr>
+        </table>
+      </span>
+      <span id="delBtn"></span>
+    </div> -->
+
+    <script src="script.js"></script>
+    <script src="script1.js"></script>
+  </body>
+</html>
