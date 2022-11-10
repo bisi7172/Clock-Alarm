@@ -104,7 +104,7 @@ get("snooze").addEventListener("click", function () {
   dB[0] = Number(dB[0]);
   dB[1] = Number(dB[1]);
   if (dB[1] <= 54) {
-    dB[1] = dB[1] + 1;
+    dB[1] = dB[1] + 5;
   } else if ((dB[1] = 55)) {
     dB[0]++;
     dB[1] = 0;
